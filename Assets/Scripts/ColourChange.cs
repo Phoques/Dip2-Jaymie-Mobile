@@ -11,7 +11,7 @@ public class ColourChange : MonoBehaviour
         //OnTouchDown();
     }
 
-
+    //This function is supposedly picked up by the message sent out into the void (Dont require reciever)
     void OnTouchDown()
     {
         GetComponent<MeshRenderer>().material.color = _touchDownColour;

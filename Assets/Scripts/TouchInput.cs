@@ -44,8 +44,6 @@ public class TouchInput : MonoBehaviour
 
             foreach (Touch touch in Input.touches)
             {
-                //Construct a ray cast from the current touch coords.
-
                 //This takes the main camera, and shots a line straight into the game scene, from the touch input.
                 Ray touchRay = Camera.main.ScreenPointToRay(touch.position);
 
